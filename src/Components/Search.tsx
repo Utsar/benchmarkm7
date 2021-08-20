@@ -28,11 +28,11 @@ function Search({ title }: SearchProps) {
               placeholder="name of city"
               value={city}
               onChange={handleChange}
-              style={{fontSize: "20px"}}
+              style={{fontSize: "15px"}}
             />       
         <p >
           <button >
-          <FontAwesomeIcon icon={faCloudSun}  style={{marginRight:"8px", color:"grey"}}/> Get Weather
+          <FontAwesomeIcon icon={faCloudSun}  style={{marginRight:"6px", color:"grey"}}/> Get Weather
           </button>
         </p>
         </div>

@@ -3,9 +3,7 @@ import { RootState } from "..";
 import {
   WeatherAction,
   WeatherData,
-
   GET_WEATHER,
-
 } from "../type";
 
 export const getWeather = (
